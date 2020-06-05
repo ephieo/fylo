@@ -1,21 +1,119 @@
 body{
-background:hsl(229, 57%, 11%);
+background:rgb(12, 18, 44);
+background-image: url("images/bg-desktop.svg");
+background-repeat: no-repeat;
+background-position: bottom ;
 }
 h1{
-color:#f6ffea;
+color:white;
 }
+.store{
+    font-size: 1em;
+    color:white;
+    font-family:'Nova Slim', cursive;
+    margin-left:30px;
+    margin-bottom:0px;
+    }
 .div-container{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
     width:100%;
     height:100%;
+
 }
 
 .cube1{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  margin:200px 0px 200px 200px;
     background: hsl(228, 56%, 26%);
-    width: 400px;
-    height:200px;
-    border: 2px solid white;
+    width: 350px;
+    height:300px;
+    border-top-right-radius: 80px 70px;
+    /* border: 2px solid white; */
 
+}
+.cube2{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-content: center; */
+    margin: 200px 200px 200px 0px ;
+    background: hsl(228, 56%, 26%);
+    width: 500px;
+    height:300px;
+    border-radius:20px;
+    /* border: 2px solid white; */
+    left: 10px;
+
+}
+.tube{
+    width:90%;
+    height:50px;
+    background:hsl(229, 57%, 11%);
+    border-radius: 30px;
+    margin:30px;
+}
+.innertube{
+    display:flex;
+    justify-content: flex-end;
+    /* right:0.1px; */
+    width:73%;
+    height:50px;
+    background-image: linear-gradient(to right, #ffbca5 , #ff4fa7);
+    border-radius: 30px; 
+}
+.ball{
+    width:15%;
+    height:50px;
+    background:white;
+    border-radius: 30px; 
+    margin-right:3px;
+    
+}
+.gb{
+    display:flex;
+    width:90%;
+    padding-left:20px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color:white;
+    font-family:'Nova Slim', cursive;
+
+}
+.darkcubes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:90%;
+    height:100px;
+    background:transparent;
+    margin-left:10px;
+
+}
+.dc1{
+    border: 2px solid palegoldenrod ;
+    background:rgb(12, 18, 44);
+    width : 60px;
+   height : 60px;
+   border-radius:20px;
+}
+.dc2{
+    border: 2px solid palegoldenrod ;
+    background:rgb(12, 18, 44);
+    width : 60px;
+   height : 60px;
+   border-radius:20px;
+}
+.dc3{
+    border: 2px solid palegoldenrod ;
+    background:rgb(12, 18, 44);
+    width : 60px;
+   height : 60px;
+   border-radius:20px;
 }
